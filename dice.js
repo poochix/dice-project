@@ -25,8 +25,8 @@ let images = [
 
             console.log((dieOneValue +1), (dieTwoValue +1));
 
-            document.querySelector("#die-1").setAttribute("src", "/images/" + images[dieOneValue]);
-            document.querySelector("#die-2").setAttribute("src", "/images/" + images[dieTwoValue]);
+            document.querySelector("#die-1").setAttribute("src", "images/" + images[dieOneValue]);
+            document.querySelector("#die-2").setAttribute("src", "images/" + images[dieTwoValue]);
             document.querySelector("#total").innerHTML = " your roll is " + ( (dieOneValue +1) + (dieTwoValue +1) );
 
         },
